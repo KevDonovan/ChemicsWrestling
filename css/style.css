@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 /* Box Model Hack */
 * {
     box-sizing: border-box;   
@@ -24,13 +24,14 @@
 
 html{
     font-size: 62.5%;
-    background-color: #536058;
-    font-family: Playfair, serif;
-    color: #663412;
+    /* background-color: rgb(0, 51, 102); */
+    background-image: linear-gradient(rgb(0, 51, 102), rgba(255, 204, 0));
+    font-family: Oswald, sans-serif;
+    color: black;
 }
 
 .borderColor{
-    border-color: #cfcecc;
+    border-color: rgb(255, 204, 0);
 }
 
 /******************************************
@@ -41,14 +42,14 @@ html{
     width: 96%;
     margin: auto;
     padding: 1rem 0;
-    border-bottom: 2px solid;
+    border-bottom: 2px solid rgb(255, 204, 0);
     display: flex;
     justify-content: space-around;
     margin-bottom: 1rem;
 }
 
 .logo{
-    width: 16rem;
+    width: 10rem;
 }
 
 .logoImg{
@@ -70,8 +71,8 @@ html{
 .navLinks a{
     text-decoration: none;
     font-size: 2.4rem;
-    color: #733a14;
-    background-color: #d4cdc1;
+    color: rgb(0, 51, 102);
+    background-color: rgb(255, 204, 0);
     border-radius: 0.4rem;
     padding: 0.3rem;
 }
@@ -94,7 +95,7 @@ body {
 }
 
 .slideshow{
-    background-color: #cfcecc;
+    background-color: rgb(255, 204, 0);
     position: relative;
     display: flex;
     flex-direction: column;
